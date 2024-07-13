@@ -1,0 +1,6 @@
+function tell_user = ui_show_message_in_figure(message)
+figure(gcf); % gcf: get current figure; this line makes it to the front
+tell_user = uicontrol('Style','text','String',message,...
+                      'Units','normalized','Position',[0.40,0.91,0.18,0.09],...
+                      'Fontsize',12,'BackgroundColor',get(gcf,'color'));
+end
