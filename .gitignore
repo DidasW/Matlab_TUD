@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+old or dev versions/
+dev_pack/
+name conversions/
+dev_*.m
+try_*.m
+# C extensions
+#*.so
